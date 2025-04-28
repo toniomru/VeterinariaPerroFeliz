@@ -1,0 +1,346 @@
+body{
+  background:url(imagenes/fondo.jpg) repeat;
+}
+#logo{
+    width:200px;
+    height: 200px;
+    float: left;
+    box-sizing: border-box;
+    background: url(imagenes/11.png)no-repeat center;
+    padding: 10px;
+}
+.actividades{
+  float: right;
+  font-size: 20px;
+}
+#titulo{
+ font-size: 30px;
+ color: black;
+ font-family:'Vina Sans',cursive ;
+}
+.container {
+    width:1500px;
+    margin:0px auto;
+    font-size:1em;
+   
+    
+    font-size: 15px;
+  }
+  header {
+    
+    text-align:center;
+    
+    background: -webkit-linear-gradient(left,#f5ebe0,#d5bdaf);
+    font-family: 'Vina Sans', cursive;
+    font-size: 10px;
+    height: 200px;
+
+    
+  }
+  a {
+    font-size: 30px;
+    color: #333;
+    text-decoration: none;
+   
+
+  }
+
+  section {
+    margin-top: 0px;
+    padding: 10px;
+    -moz-border-radius:3px;-webkit-border-radius:3px;-o-border-radius:3px;border-radius:3px;
+  }
+  section {
+    float: left;
+    width: 100%;
+    background:-webkit-linear-gradient(left,#dda15e,#bc6c25);
+    border: 1px solid #ccc;
+    
+  }
+  
+  nav {
+    
+    margin-bottom: 0.0%;
+    
+    
+    
+  }
+  nav ul {
+    list-style-type:none;
+    padding:50px;
+    width: 1000px;
+    display: inline-block;
+    text-align: center;
+    
+    
+  }
+  nav ul li {
+    display: inline-block;
+    
+    border-width: 2px;
+    border-color: black;
+    border-radius: 10px;
+    text-align: center;
+    height: 100px;
+    font-family: 'Vina Sans' cursive;
+    background: #ca6702;
+    
+    
+    
+  }
+  nav ul li:hover {
+    background:-webkit-linear-gradient(left,#F20C0C,white);
+    height: 100%;
+    
+  
+  }
+  nav ul li a {
+   
+   display:inline-block;
+   color: black;
+   
+   
+  
+  padding: 30px;
+    
+
+    
+  }
+  .hist{
+    width: 50%;
+    font-size: 20px ;
+  }
+
+  .historia img{
+    float:right;
+    margin-top: -400px;
+  }
+  .mb-3{
+    width: 50%;
+    
+    
+  }
+  .formulario img{
+    float: right;
+    width: 40%;
+    margin-right: 20px;
+    margin-top: -300px;
+    height: 600px;
+    border-style: groove;
+    
+  }
+  #imagenform{
+    
+    float:right;
+  
+  }
+  #contacto{
+    background-color: black;
+    height: auto;
+  }
+  .cajacontacto{
+    background:-webkit-linear-gradient(left,#f5ebe0,#d5bdaf);
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+    
+
+  }
+  .card{
+    float: left;
+    padding-left: 10px;
+    margin-left: 10px;
+    width: 45%;
+    
+  
+    
+    
+  }
+  .card1{
+    text-align: center;
+    float: right ;
+    background-color: white;
+    margin-right: 10px;
+    width: 50%;
+ 
+    
+  }
+  #cajanormal{
+    float: left;
+  }
+  
+  .col-8{
+    background-color: white;
+  }
+  .redes{
+    background:-webkit-linear-gradient(left,#f5ebe0,#d5bdaf);
+  }
+  .redes img{
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 40px;
+    padding-left: 20px;
+  }
+  
+  footer {
+    position: fixed;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 10px 0px 10px 0px;
+    background-color: #333;
+    text-align: center;
+    height: 55px;
+  }
+  footer a {
+    color: #fff;
+  }
+  
+  h2 {
+    color: #f06156;
+  }
+
+
+
+  /* pantalla maximo 1399px*/
+  @media screen and (max-width:1399px){
+    .container {
+      width:98%;
+    }
+    header{
+      width: 98%;
+    }
+    #logo{
+      width: 40%;
+    }
+    nav ul{
+      width: 1px;
+      
+      display: inline;
+    }
+    nav ul li{
+      height: 50px;
+    }
+    nav ul li a{
+      font-size: 20px;
+       padding: 10px;
+    }
+    section {
+      width:98%;
+      height: auto;
+    }
+    #foda img{
+      width: 100%;
+    }
+    .historia img{
+      width :40%;
+      height:40%;
+    }
+    .formulario img{
+      height: 300px;
+    }
+    .cajacontacto{
+      width: 98%;
+      height: 600px;
+    }
+    
+  }
+  /* pantalla maximo 980px */
+  @media screen and (max-width:980px) {
+    .container {
+      width:98%;
+    }
+    header{
+      width: 98%;
+    }
+    #logo{
+      width: 40%;
+    }
+    nav ul{
+      width: 1px;
+      
+      display: inline;
+    }
+    nav ul li{
+      height: 50px;
+    }
+    nav ul li a{
+      font-size: 20px;
+       padding: 10px;
+    }
+    section {
+      width:98%;
+      height: auto;
+    }
+    #foda img{
+      width: 100%;
+    }
+    .historia img{
+      width :40%;
+      height:40%;
+    }
+    .formulario img{
+      height: 300px;
+    }
+    .cajacontacto{
+      width: 98%;
+      height: 600px;
+    }
+  }
+   
+  /* pantalla maximo 700px */
+  @media screen and (max-width:700px) {
+    aside,section {
+      float:none;
+      width:96%;
+      font-size:1.2em;
+    }
+    nav {
+      font-size:1.2em;
+    
+    }
+   section{
+    height: auto;
+    width: 98%;
+   }
+    nav ul {
+      float:none;
+      clear:both;
+    }
+    .cajacontacto{
+      width: 98%;
+      height: 600px;
+    }
+  }
+   
+   
+  /* pantalla maximo 480px */
+  @media screen and (max-width:480px) {
+
+    #logo{
+      width: 50%;
+    }
+    header{
+      width: 98%;
+    }
+   
+    nav ul li{
+    
+     display: inline;
+    
+   
+    }
+    
+    nav ul li a{
+      font-size: 14px;
+    }
+  
+    section {
+      width: 98%;
+      font-size:1.5em;
+    }
+   
+    
+   
+  }
